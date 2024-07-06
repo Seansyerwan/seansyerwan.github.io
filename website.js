@@ -1,0 +1,1 @@
+var audio = new Audio("background-music.mp3")
