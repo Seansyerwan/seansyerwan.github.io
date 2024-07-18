@@ -3,6 +3,7 @@
     background-color: #3F88C5;
     color:#393E41;
     text-align: justify;
+    z-index: 0px;
 }
 
 
@@ -22,9 +23,10 @@
     transition: top 0.5s;
 }
 
+
 #project, #aboutme{
     background-color: #c0773a;
-    color:#393E41;
+    color:black;
     border:4px solid #393E41;
     border-radius: 16px;
     position:relative;
@@ -52,8 +54,19 @@ img{
 }
 
 .page2, .page2 *{
-    background-color: F6F7EB !important;
+    color: #4cc9f0;
+    background-color: #3f37c9;
 }
+
+#irl{
+    background-color: #b5179e;
+    color:black;
+    border:4px solid #480ca8;
+    border-radius: 16px;
+    position:relative;
+    padding:5px;
+}
+
 
 /*
 *Using the .page2 * to ensure the screen will all be applying the same style, unaffected by the global setting.
