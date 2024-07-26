@@ -7,7 +7,7 @@ var currentpath = window.location.pathname;
 
 
 //depending on the page, we play a song. 
-if(currentpath.includes("index")){
+if(currentpath === "/" || currentpath.includes("index")){
     window.onload= audio.play();
     console.log("Playing wii music");
 }
