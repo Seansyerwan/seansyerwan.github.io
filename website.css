@@ -30,6 +30,7 @@
     border:4px solid #393E41;
     border-radius: 16px;
     position:relative;
+    width: 75%;
     padding:5px;
 }
 
@@ -64,6 +65,7 @@ img{
     border:4px solid #480ca8;
     border-radius: 16px;
     position:relative;
+    width: 75%;
     padding:5px;
 }
 
