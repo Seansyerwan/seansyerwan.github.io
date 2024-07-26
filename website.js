@@ -7,11 +7,11 @@ var currentpath = window.location.pathname;
 
 
 //depending on the page, we play a song. 
-if(currentpath.includes("1")){
+if(currentpath.includes("index")){
     window.onload= audio.play();
     console.log("Playing wii music");
 }
-else if (currentpath.includes("2")){
+if (currentpath.includes("2")){
     window.onload = page2_audio.play();
     console.log("Playing clair de lune");
 }
