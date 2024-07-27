@@ -57,14 +57,14 @@ img{
 }
 
 .page2, .page2 *{
-    color: #4cc9f0;
-    background-color: #3f37c9;
+    color: black;
+    background-color: #9E9E53;
 }
 
 #irl{
-    background-color: #b5179e;
+    background-color: #97A383;
     color:black;
-    border:4px solid #480ca8;
+    border:4px solid #2364AA;
     border-radius: 16px;
     position:relative;
     width: 75%;
