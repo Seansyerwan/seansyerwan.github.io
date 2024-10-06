@@ -9,13 +9,15 @@ export const metadata = {
 };
 
 function App(){
-
+  //we will use memoization to make sure the portfolio is as efficient as possible when loading. 
   const [current, setNewScreen] = useState('Project'); //set the default state to be projects. 
-  const swap = (newScreen) =>{setNewScreen(newScreen)}; //this is how we swap our screens
+  const swap = useMemo(() => {return (newScreen) =>{setNewScreen(newScreen)} //this is how we swap our screens
+  },[]); //empty array made to improve performance
 
 
+  //return the div where its either the projects page or experiences page. 
   return(
-    <div>
+    <div> 
       {current === 'Project' && <Projects swapPage = {swap}/>}
       {current === 'Experiences' && <Experiences swapPage = {swap}/>}
     </div>
