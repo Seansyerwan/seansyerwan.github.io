@@ -2,6 +2,19 @@
 function Experiences({swapPage}){
 
 
+    var position = window.scrollY;
+    window.onscroll = function() {
+    var currentpos = window.scrollY;
+
+    if(position > currentpos){
+        document.getElementById("general_toolbar").style.top = "0";
+    }
+    else{
+        document.getElementById("general_toolbar").style.top = "-50px";
+    }
+    position = currentpos;
+}
+
     return(
     <><div id="page2">
 
@@ -84,6 +97,10 @@ function Experiences({swapPage}){
     <h3>To see my projects, please click the link at the top of the screen!</h3>
 
     </div>
+
+
+
+
 </>
 );
 }

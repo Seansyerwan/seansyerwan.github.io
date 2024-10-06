@@ -4,6 +4,21 @@ import triviaImage from "./trivia.png";
 
 function Project({swapPage}){
 
+
+    var position = window.scrollY;
+    window.onscroll = function() {
+    var currentpos = window.scrollY;
+
+    if(position > currentpos){
+        document.getElementById("general_toolbar").style.top = "0";
+    }
+    else{
+        document.getElementById("general_toolbar").style.top = "-50px";
+    }
+    position = currentpos;
+    }
+
+
     return(
       <><div id="general_toolbar">
             <a onClick={()=> swapPage('Experiences')}>University experiences</a>

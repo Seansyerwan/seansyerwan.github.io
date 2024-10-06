@@ -11,8 +11,8 @@ export const metadata = {
 function App(){
 
   const [current, setNewScreen] = useState('Project'); //set the default state to be projects. 
-
   const swap = (newScreen) =>{setNewScreen(newScreen)}; //this is how we swap our screens
+
 
   return(
     <div>
