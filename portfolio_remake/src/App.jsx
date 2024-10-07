@@ -1,5 +1,5 @@
 import "./website.css";
-import {useState} from "react";
+import {useState, useMemo} from "react";
 import Projects from "./projects";
 import Experiences from "./experiences.jsx";
 

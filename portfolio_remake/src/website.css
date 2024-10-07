@@ -1,5 +1,5 @@
 *{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     background-color: #087E8B;
     color:#393E41;
     text-align: justify;
@@ -44,7 +44,7 @@
 #general_toolbar a{
     background-color: #393E41;
     color: #F6F7EB;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     z-index: 20;
     padding:15px;
     float:left;
@@ -52,6 +52,17 @@
     display: block;
 }
 
+#general_toolbar a:hover{
+    background-color: #393E41;
+    color: #F6F7EB;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    z-index: 20;
+    padding:15px;
+    float:left;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
 
 h1{
     padding:15px;
