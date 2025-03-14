@@ -81,7 +81,7 @@ function Project({swapPage}){
 
                     Once again, click somewhere in this box to access it.
                 </p></a><h2>Pre-plan Minecraft playthroughs with this calculator!</h2>
-                <a href="https://github.com/Seansyerwan/Minecraftbr/eedingResourceCalculator"><p id="project">
+                <a href="https://github.com/Seansyerwan/general_purpose_minecraft_calculators"><p id="project">
                     Want to help optimise your playthrough of Minecraft? This calculator could help!<br />
 
                     When playing through Minecraft, you may want to farm animals. However, you may need to consider how many resources it could take.
