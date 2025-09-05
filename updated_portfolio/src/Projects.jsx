@@ -28,12 +28,12 @@ function Project({swapPage}){
             </h1><h2>
                 About me:
             </h2><br /><p id="aboutme">
-                I'm a 3rd year Computer Science and Software Engineering major.
+                I'm a 4th year Computer Science and Software Engineering major.
                 I've got a fair bit of experience with some programming languages:
                 <br/>
                 I've made programs using Java, C#, C, Python, Typescript, HTML, and as you can see before you, CSS and Javascript!
                 <br/>
-                I've also learned some C++, React and Rust and I have some experience with PostgreSQL and MongoDB!
+                I've also learned some C++, React and Rust and I have some experience with PostGreSQL and MongoDB!
                 <br/>
                 You can see about the projects I've published below!
             </p><h2>
