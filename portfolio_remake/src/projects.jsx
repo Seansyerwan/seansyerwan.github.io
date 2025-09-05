@@ -1,6 +1,7 @@
 import vegasImage from "./vegas.png";
 import taxesImage from "./taxes.png";
 import triviaImage from "./trivia.png";
+import email from "./yay_email.png";
 
 function Project({swapPage}){
 
@@ -64,6 +65,25 @@ function Project({swapPage}){
                     Within the game itself you can choose from a list of ten different topics, with 5 questions from it,
                     and the game continues til you wish to end it. Feel free to let me know any suggestions you might have for a topic!<br />
                     If you wanna give it a try, make sure to click on this box!
+                </p></a><h2>Email template maker!</h2>
+                <a href="https://github.com/Seansyerwan/email_template_maker">
+                <p id="project">
+                    <br />
+                    <img src={email}/><br />
+                    Tired of having to rewrite the same email every single week? Want to have a little bit of style with it? Here's a console program that'll help!<br/>
+
+                    Inspired by my experience as a secretary, I made this to help not only myself, but also others out with the repeated issues that come with repetitive emails.<br/>
+
+                    Using C++20, users can write the content of the email, where the information will update itself every week! Simply run the program, fill in the required data and you can save the email to a local txt file!
+                    With this, they can copy and paste it to the email provider they so wish and it'll be ready to go!<br/>
+                    Worried about dates having to be updated every week? No need, as the program will update the dates saved next time you retrieve it!<br/>
+
+                    Misinputted a field? Simply input that you wish to modify the file when prompted, and you'll be ready again in no time!<br/>
+
+                    Check it out by clicking in this box and you'll see the GitHub page! 
+                    (Note: This program is purely console based and requires C++20. A UI may be made in the future)
+                
+                
                 </p></a><h2>Taxes! Sorta!</h2>
                 <a href="https://github.com/Seansyerwan/python_tax_calc"><p id="project">
                     There are two certainties in life: death and taxes. This program can help with hypotheticals for the latter!
@@ -72,7 +92,7 @@ function Project({swapPage}){
                     Simply just input the income, tax credits and choose the social insurance group you (hypothetically would) belong to,
                     and the program will not only print out the data, but it also saves a formatted csv file to the directory you save the files in!<br /><br />
 
-                    To access the github page for it right away, click anywhere in this box!
+                    To access the github page for it right away, click anywhere in this box! (Note: This program is using data for 2024, for educational purposes)
                 </p></a><h2>A small portfolio project using C!</h2>
                 <a href="https://github.com/Seansyerwan/portfolio-terminal-in-C"><p id="project">
                     Portfolios! It's a good way to summarise yourself, and this project can help you make a br/ief one! <br />
