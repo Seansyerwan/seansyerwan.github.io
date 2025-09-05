@@ -23,8 +23,17 @@ function Experiences({swapPage}){
     </div>
 
     <h1>
-        Curious about my other things I've done in University? Look no further!
+        Curious about my other things I've done outside of Academic work? Look no further!
     </h1>
+
+    <h2>Internship at Mastercard!</h2>
+    <p id="irl">
+        From February 2025 to July 2025, I had the privlege of working as a Software Engineer Intern in the Dublin Tech Hub! Throughout this time, I got to work with
+        an incredible team, getting to learn all about technologies involved with backend development, getting to be hands on in a SCRUM environment (while getting to chair a few meetings),
+        as well as doing additional work, from getting to utilise GitHub Copilot, to Jenkins to working in a hackathon environment and working as part of an intern committee!
+        <br/><br/>
+        I was able to dive headfirst into the world of software engineering and I'm incredibly lucky to have gotten the opportunity to do so!
+    </p>
 
     <h2>Student Senate!</h2>
     <p id="irl">
@@ -36,15 +45,12 @@ function Experiences({swapPage}){
         the hope of making a better campus for all students!
     </p>
 
-    <h2>My time on the Games Society Committee!</h2>
+    <h2>My time on Computer Science Society!</h2>
     <p id="irl">
-        Being in the committee for one of the biggest societies on campus was a fantastic experience. I got to meet loads of amazing folks,
-        help manage the LAN side of things for the society, run events, get equipment that the society needed, help make decisions for the years to come,
-        and that's before even mentioning the organization for Dominicon! 
+        Since joining the committee in 2024, I was able to help out as an ordinary committee member in 3rd year, getting to assist with events, giving my insights and opinions on
+        the handling of events, while also giving talks on behalf of the society to students new to the topics at hand! I presented a talk on Git, while also helping students with any queries they may have.
         <br/><br/>
-        In total, we ended up raising 5000 euros for Threshold, a charity helping those
-        struggling with housing! It was by far one of the most fun experiences I could have had and I'll be forever grateful for the friends
-        I made during my time.
+        Following this, I was elected as Secretary for 2025-2026, where I do hope to help contribute to the society in a meaningful way prior to my departure from university!
     </p>
 
     <h2>My work with the Pride Society!</h2>
@@ -57,7 +63,27 @@ function Experiences({swapPage}){
         soon into my term, and throughout, keeping in touch with the Students Union and others, while also running events like the weekly coffee
         mornings (where I would keep my love of tea up!)
         <br/><br/>
-        As a group that was always so near and dear to me I've been honored to work for them, and as of May 2024, I was elected as the Support and Equality officer for 2024-2025, and I do hope to keep up the work for the society!
+        As a group that was always so near and dear to me I've been honored to work for them, and as of May 2025, I was elected as the Secretary for 2025-2026, and I do hope to keep up the work for the society!
+    </p>
+    
+    <h2>My time as a Computer Science Tutor</h2>
+    <p id="irl">
+        As someone who previously had to get aid in learning the basics of programming and computer science in general, I wished to help out others who had been in a similar situation to myself.
+        As a result, I became a tutor in the Computer Science support Centre from 2024-2025, wherein I assisted students with any queries relating to whatever they had issues with, from Git to Java and C++ to SQL!
+        <br/><br/>
+
+        I was thorougly thrilled to have helped contribute to the wellbeing of others in the course, as it certainly can be a difficult course to wrap one's head around if you haven't the experience!
+    
+    </p>
+    <h2>My time on the Games Society Committee!</h2>
+    <p id="irl">
+        Being in the committee for one of the biggest societies on campus was a fantastic experience. I got to meet loads of amazing folks,
+        help manage the LAN side of things for the society, run events, get equipment that the society needed, help make decisions for the years to come,
+        and that's before even mentioning the organization for Dominicon! 
+        <br/><br/>
+        In total, we ended up raising 5000 euros for Threshold, a charity helping those
+        struggling with housing! It was by far one of the most fun experiences I could have had and I'll be forever grateful for the friends
+        I made during my time.
     </p>
 
     <h2>First year society experience!</h2>
